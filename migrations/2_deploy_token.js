@@ -1,8 +1,8 @@
 'use strict';
 
-const MyContract = artifacts.require('MyContract.sol');
+const MyToken = artifacts.require('MyToken.sol');
 
 
 module.exports = function(deployer, network) {
-    deployer.deploy(MyContract, "FirstContract");
+    deployer.deploy(MyToken);
 };
